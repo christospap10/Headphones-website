@@ -84,3 +84,11 @@ const sr = ScrollReveal({
 sr.reveal(".home__header, .section__title, .specs", { delay: 400 });
 sr.reveal(".home__footer", { delay: 700 });
 sr.reveal(".home__img", { delay: 900, origin: "left" });
+
+// when screen width is over 768px hide the x button
+function hideX() {
+  if (window.innerWidth > 768) {
+    document.getElementById("nav-close").style.visibility = "hidden";
+  }
+}
+window.addEventListener("resize", hideX);
