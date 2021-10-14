@@ -16,7 +16,6 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-
     <title>Headphones</title>
   </head>
   <body>
@@ -30,7 +29,7 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#home" class="nav__link active-link">Home</a>
+              <a href="#home" class="active-link nav__link">Home</a>
             </li>
             <li class="nav__item">
               <a href="#specs" class="nav__link">Specs</a>
@@ -235,7 +234,72 @@
         </main>
     </main>
     <!--FOOTER-->
-    <footer class="footer section"></footer>
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <a href="#" class="footer__logo">
+          <img src="./assets/img/logo.png" alt="">
+        </a>
+        <div class="footer__content">
+          <h3 class="footer__title">Products</h3>
+          <ul class="footer__links">
+            <li>
+              <a href="" class="footer__link">Headphones</a>
+            </li>
+            <li>
+              <a href="" class="footer__link">Earphones</a>
+            </li>
+            <li>
+              <a href="" class="footer__link">Earbuds</a>
+            </li>
+            <li>
+              <a href="" class="footer__link">Accesories</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Support</h3>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Product help</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Register</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Updates</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Provides</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <form action="" class="footer__form">
+            <input type="email" class="footer__input" placeholder="Email">
+            <button class="button button--flex">
+              <i class="ri-send-plane-line button__icon"></i>Subscribe
+            </button>
+          </form>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="#" class="footer__social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="#" class="footer__social-link">
+              <i class="ri-twitter-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--scroll up-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line scrollup__icon"></i>
+    </a>
+    <!--scroll reveal-->
+      <script src="./node_modules/scrollreveal/dist/scrollreveal.min.js"></script> 
   </body>
   <!--main js-->
   <script src="./assets/js/main.js"></script>
